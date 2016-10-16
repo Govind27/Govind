@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_english"
+            android:icon="@drawable/englishimage1"
+            android:title="English" />
+        <item
+            android:id="@+id/nav_hindi"
+            android:icon="@drawable/hindiimage"
+            android:title="Hindi" />
+        <item
+            android:id="@+id/nav_kanada"
+            android:icon="@drawable/kanadaimage"
+            android:title="Kanada" />
+    </group>
+
+    <item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/ic_menu_share"
+                android:title="Share" />
+            <item
+                android:id="@+id/nav_send"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Send" />
+        </menu>
+    </item>
+
+</menu>
